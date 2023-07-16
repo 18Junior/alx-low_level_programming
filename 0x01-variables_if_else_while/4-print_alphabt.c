@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prog Entry point
  * Return: Always 0 (Success)
  */
 
@@ -9,7 +9,6 @@ int main(void)
 	char c;
 
 	c = 'a';
-
 	while 
 		(c <= 'z') {
 			if ((c != 'q' && c != 'e') && c <= 'z')
@@ -17,5 +16,6 @@ int main(void)
 			c++;
 		}
 	putchar('\n');
+
 	return (0);
 }
