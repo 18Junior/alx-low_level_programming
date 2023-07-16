@@ -1,19 +1,15 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: ALways 0 (Success)
+ * main - Prog Entry point
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int a = 0;
+	int a;
 
-	while (a < 10)
-	{
-		printf("%d, a);
-           	a++;
-	}
-        putchar('\n');
-
+	for (a = 0; a < 10; a++)
+		printf("%d", a);
+	putchar('\n');
 	return (0);
 }
