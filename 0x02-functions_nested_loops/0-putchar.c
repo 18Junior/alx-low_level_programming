@@ -1,13 +1,12 @@
 #include "main.h"
-
 /**
- * main - Entry point of the code
- *
- * Return: Always 0 (Success)
+ * main - print _putchar
+ * is written by junior
+ * Return: 0
  */
 
 int main(void)
-{
+{       
 _putchar('_');
 _putchar('p');
 _putchar('u');
