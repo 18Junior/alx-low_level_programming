@@ -14,6 +14,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 		i = ci = 0;
@@ -25,6 +26,7 @@ char *str_concat(char *s1, char *s2)
 		ci++;
 
 	conct = malloc(sizeof(char) * (i + ci + 1));
+
 	if (conct == NULL)
 		return (NULL);
 	i = ci = 0;
