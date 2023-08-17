@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * print_all = prints anything
+ * print_all - prints anything
  * @format: list of types of arguments passed to the function
  */
-
 void print_all(const char * const format, ...)
 {
 	int i = 0;
@@ -40,12 +39,12 @@ void print_all(const char * const format, ...)
 				default:
 					i++;
 					continue;
-}
-sep = ", ";
-i++;
-}
-}
+			}
+			sep = ", ";
+			i++;
+		}
+	}
 
-printf("\n");
-va_end(list);
+	printf("\n");
+	va_end(list);
 }
